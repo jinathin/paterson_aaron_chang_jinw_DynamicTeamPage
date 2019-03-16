@@ -131,7 +131,7 @@ body {
 /*end of the header part of the site*/
 
 #profileSection
-{
+{	
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -261,13 +261,15 @@ body {
   	-moz-transition: color 0.4s ease-out;
   	-o-transition: color 0.4s ease-out;
   	transition: color 0.4s ease-out;
+  	cursor: pointer;
 	
 }
 
 .proBut:Hover
 {
 	color: #fff;
-	background-color: #efefef;
+	background-color: #da325f;
+	cursor: pointer;
 }
 
 /*button end*/
@@ -282,12 +284,23 @@ body {
 /*this is the detailed info section start*/
 
 #detailSection
-{
+{	
 	display: none;
+/*	display: flex;*/
 	flex-direction: row;
 	justify-content: space-evenly;
-	/*background-color: #f75699;*/
-	background-color: black;
+	background-color: #f75699;
+	/*background-color: white;*/
+	color: white;
+}
+
+#detailSection2
+{
+/*	display: none;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #40d4a1;
 	color: white;
 }
 
@@ -343,7 +356,13 @@ body {
 
 .largeImage
 {
-	margin-top: 80px;
+	margin-top: 140px;
+}
+
+.largeImage2
+{
+	margin-top: 100px;
+
 }
 
 .rightBox
@@ -404,11 +423,14 @@ body {
 	position: absolute;
 	font-weight: bold;
 	width: 500px;
+	right: 320px;
 }
 
 #boldTitle
 {
 	font-size: 300px;
+	color: black;
+	font-family: 'Saira Extra Condensed', sans-serif;
 
 }
 
@@ -425,8 +447,35 @@ body {
 }
 
 
+.largeTitle2
+{
+	display: block;
+	position: absolute;
+	font-weight: bold;
+	width: 500px;
+	left: 370px;
+	letter-spacing: -5px;
+}
 
+#boldTitle2
+{
+	font-size: 300px;
+	color: black;
+	font-family: 'Saira Extra Condensed', sans-serif;
 
+}
+
+.closeBut2
+{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	cursor: pointer;
+	padding: 10px;
+	flex-direction: none;
+	top: 635px;
+	right: 50px;
+}
 
 
 
