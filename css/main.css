@@ -295,7 +295,7 @@ body {
 }
 
 
-#detailSection.is-visible 
+#detailSection.is-visible
 {
 	display: flex;
 }
@@ -310,11 +310,11 @@ body {
 	color: white;
 }
 
-#detailSection2.is-visible
+/*#detailSection2.is-visible
 {
 	display: flex;
 }
-
+*/
 .ratingBox
 {
 	display: flex;
