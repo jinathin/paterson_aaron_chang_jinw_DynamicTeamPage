@@ -294,14 +294,25 @@ body {
 	color: white;
 }
 
+
+#detailSection.is-visible 
+{
+	display: flex;
+}
+
 #detailSection2
 {
-/*	display: none;*/
-	display: flex;
+	display: none;
+	/*display: flex;*/
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: #40d4a1;
 	color: white;
+}
+
+#detailSection2.is-visible
+{
+	display: flex;
 }
 
 .ratingBox
@@ -434,7 +445,7 @@ body {
 
 }
 
-.closeBut
+/*.closeBut
 {
 	display: flex;
 	justify-content: center;
@@ -445,7 +456,7 @@ body {
 	top: 635px;
 	right: 50px;
 }
-
+*/
 
 .largeTitle2
 {
@@ -465,7 +476,7 @@ body {
 
 }
 
-.closeBut2
+/*.closeBut2
 {
 	display: flex;
 	justify-content: center;
@@ -477,7 +488,7 @@ body {
 	right: 50px;
 }
 
-
+*/
 
 
 
